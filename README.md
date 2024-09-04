@@ -10,7 +10,7 @@ For this project, we utilized the Breast Cancer Wisconsin (Diagnostic) Dataset a
 Before training the neural network, the dataset underwent preprocessing steps, including:
 - Data cleaning: Handling missing or erroneous values.
 - Feature scaling: Normalizing the feature values to a similar scale to ensure convergence during training.
-- Data splitting: Division of the dataset into training and testing sets to evaluate the model's performance.
+- Data splitting: Divide the dataset into training and testing sets to evaluate the model's performance.
 
 **4. Neural Network Architecture:**
 We designed a feedforward neural network using PyTorch, consisting of multiple fully connected layers. The input layer has 30 neurons corresponding to the number of features, followed by multiple hidden layers with varying numbers of neurons and activation functions (e.g., ReLU). The output layer consists of a single neuron with a sigmoid activation function, providing the probability of the tumor being malignant.
